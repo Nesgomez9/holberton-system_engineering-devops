@@ -1,16 +1,17 @@
-.\" Manpage for read
-.TH man 2 "4 May 2015" "0.32" "holberto man page"
+.TH man 2 "04 May 2015" "0.32" "holberto man page"
 .SH NAME
-READ  Reading is suitable for all ages and at lower ages it helps children to be better than their parents 
+.B holberton
+- become a full-stack software engineer.
 .SH SYNOPSIS
-READ [NAMEOFBOOK]
+Holberton [STUDENTNAME]
 .SH DESCRIPTION
-Reading is anactivity gregarmascaracteresparaquesecumplaconlaindicacccionesdelcheckerynomedigadespuesquetodoestamaporquesielchekersiesta broken. Reading is able to improve the state of your mind as well as being able to become a millanary.
+Holberton School is a project-based alternative to college for the next generation of software engineers.
 .SH OPTIONS
-NOVEL -/ IS A OPTION OF READ
+.B holberton
+does not take any options. However, you can supplly studentname.
 .SH SEE ALSO
- \fIBITSaaaaaaaaaaaaaaaaaa\fR
+.I peerlearning(2), projectbased(2), fullstack(2), Betty(1)
 .SH BUGS
 No known bugs.
 .SH AUTHOR
-ALL THE WORLD 
+Julien Barbier, Sylvain Kalache, Sophie Barbier, Guillaume Salva, Kris Bredemeier, Julien Cyr, Alex Gautier and all the Holberton mentors
