@@ -9,7 +9,7 @@ Reading is anactivity gregarmascaracteresparaquesecumplaconlaindicacccionesdelch
 .SH OPTIONS
 NOVEL -/ IS A OPTION OF READ
 .SH SEE ALSO
-  READ.FAST(2), READ.MORE(2) 
+[\fB\-n\fR \fIBITSaaaaaaa\fR]
 .SH BUGS
 No known bugs.
 .SH AUTHOR
