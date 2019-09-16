@@ -1,0 +1,3 @@
+case q in
+    
+getent passwd | cut -d: -f6
