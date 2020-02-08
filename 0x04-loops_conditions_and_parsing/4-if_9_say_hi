@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script print "Holberton School" 10 times and hi in the nine
+a=1
+while [ $a -le 10 ]; do
+    echo "Holberton School"
+    if [ $a -eq 9 ]
+    then
+    echo "Hi"
+    fi
+    a=$(( a + 1 ))
+done
