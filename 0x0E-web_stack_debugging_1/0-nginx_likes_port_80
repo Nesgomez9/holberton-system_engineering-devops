@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Task 0 Web Stack debuggin 1
+sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
+service nginx restart
