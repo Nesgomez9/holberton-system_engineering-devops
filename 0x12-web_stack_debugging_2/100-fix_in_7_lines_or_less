@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# debugging #2 - task 2
+pkill -f apache2
+sed -i "s/80/8080/" /etc/nginx/sites-available/default
+sudo -u nginx service nginx start
