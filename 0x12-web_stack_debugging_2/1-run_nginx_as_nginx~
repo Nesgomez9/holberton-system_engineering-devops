@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# debugging #2 - task 0
-sudo -u "$1" whoami
