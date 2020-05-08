@@ -7,7 +7,7 @@ import requests
 
 def number_of_subscribers(subreddit):
     try:
-        header = {'Nicolas-Gomez': 'My-computador/0.0,1'}
+        header = {'User-agent': 'My-computador/0.0,1'}
         url ="https://www.reddit.com/r/{}/about.json".format(subreddit)
         js = requests.get(url, headers=header, allow_redirects=False)
         subs = js.json().get('data').get('subscribers')
