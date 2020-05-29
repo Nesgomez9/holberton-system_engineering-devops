@@ -46,16 +46,12 @@ server {
                 root /usr/share/nginx/html;
                 internal;
         }
-location /hbnb_static {
-                alias /data/web_static/current;
-        }
         location = /hbnb_static {
                  alias /data/web_static/current;}
 
         location /airbnb-onepage/ {
                 proxy_pass http://0.0.0.0:5000/airbnb-onepage/;
         }
-
         location /airbnb-dynamic/number_odd_or_even/ {
                  proxy_pass http://0.0.0.0:5001/number_odd_or_even/;
         }
@@ -63,7 +59,7 @@ location /hbnb_static {
                  proxy_pass http://0.0.0.0:5002/api/;
         }
         location / {
-                 proxy_pass http://0.0.0.0:5003/2-hbnb/;
+                proxy_pass http://0.0.0.0:5003/2-hbnb;
         }
 
 
